@@ -1,0 +1,15 @@
+
+/* Fix para el overlap del navbar de bootstrap */
+body { 
+	padding-top: 70px; 
+}
+
+#col-main {
+	max-height: 100%;
+    overflow-y: scroll;
+}
+
+/* Fix de scrollbar hidden */
+::-webkit-scrollbar { 
+    display: none; 
+}
